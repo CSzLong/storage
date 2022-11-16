@@ -1,0 +1,12 @@
+[package]
+name = "storage"
+version = "0.0.1"
+
+[dependencies]
+# Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+Sui = { local = "../../sui/crates/sui-framework" }
+
+[addresses]
+storage =  "0x0"
+sui =  "0x0000000000000000000000000000000000000002"
+caller = "0x7497bdeec1916b3fd1e8660290e98c3cf671d607"

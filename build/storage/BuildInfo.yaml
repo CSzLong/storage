@@ -1,0 +1,23 @@
+---
+compiled_package_info:
+  package_name: storage
+  address_alias_instantiation:
+    caller: 7497bdeec1916b3fd1e8660290e98c3cf671d607
+    std: "0000000000000000000000000000000000000001"
+    storage: "0000000000000000000000000000000000000000"
+    sui: "0000000000000000000000000000000000000002"
+  source_digest: A3FF166DEF9D673AFF481C0C19CD1F9DEACA5C3790AB12228A30E0F68444E75E
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib
+  - Sui
